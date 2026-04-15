@@ -38,7 +38,7 @@ We strongly recommend using **Conda** to create an isolated, clean environment t
 ### Step 2.1: Create & Activate Environment
 ```bash
 conda create -n segmanet python=3.10 -y
-conda activate segmanet
+conda activate ssugnet
 ```
 
 ### Step 2.2: Install Basic Dependencies
@@ -84,7 +84,7 @@ python inference.py \
 
 ---
 
-## 4. Notes on Output & Metrics (KL Divergence)
+## 4. Notes on Output & Metrics (KL Divergence)(maybe you need？maybe not)
 
 The inference script automatically applies targeted post-processing to the raw network outputs:
 1. **Gaussian Smoothing (`sigma=2.0`)**: Mitigates upsampling grid artifacts, making the spatial distribution closer to natural human visual attention.
